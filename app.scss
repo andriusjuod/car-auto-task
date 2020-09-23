@@ -1,0 +1,305 @@
+html {
+    font-family: 'Epilogue', sans-serif;
+    color: #011910;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+
+
+
+// Nav
+
+  .logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    // padding-left: 300px;
+}
+
+.logo-container {
+    display: flex;
+
+.logo-text{
+    padding-top:35px;
+    text-decoration: bold;
+    
+}
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-around;
+    nav {
+        // padding-right: 400px;
+        padding-top: 20px;
+    }
+}
+
+ul li {
+    display: flex;
+    display: inline;
+    padding: 12px 24px;
+    cursor: pointer;
+
+}
+
+
+
+
+// Header
+
+.header-container {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    background-color:  	rgb(224,224,224);
+    padding: 0;
+    margin: 0;
+}
+
+.circle {
+    
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+    top:170px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+}
+
+.name  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+}
+
+.cv {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+}
+
+.personal-details-container
+{padding-top: 40px;}
+
+.personal-details {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        letter-spacing: 2px;
+    }
+}
+
+.personal-details-items {
+    display: flex;
+    justify-content: center;
+}
+
+.item-pd {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hr-container 
+{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+hr {
+
+    color: #011910;
+}
+
+}
+
+.portfolio-container {
+    background: 	rgb(224,224,224);
+    height: 1100px;
+}
+
+.portfolio-title {
+    
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1 {
+        letter-spacing: 2px;
+    }
+}
+
+
+.portfolio-items-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-items-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.pf-items-1 {
+
+    width: 300px;
+    height: 400px;
+    padding:0;
+    margin-left: 15px;
+    margin-top: 15px;
+   // padding-left: 50px;
+    // padding-right: 50px;
+    background-image: url(Material/placeholder.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .pf-p {
+        display: flex;
+        flex-direction: column;
+        padding-top: 270px;
+        padding-left: 10px;
+    }
+
+
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.contact-me-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1 {
+        letter-spacing: 2px;
+    }
+
+}
+
+.flex-logo {
+    display: flex;
+
+    p {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    
+}
+
+
+// Footer
+
+
+.footer {
+    color:white !important;
+    background-color: #011910;
+}
+
+.logo-footer {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.logo-container-footer {
+    display: flex;  }
+
+.logo-text-footer {
+    padding-top:35px;
+    text-decoration: bold;}
+    
+.top-container-footer {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid white 2px;
+    position: relative;
+    nav {
+        // padding-right: 400px;
+        padding-top: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    ul li {
+        cursor: pointer;
+    }
+
+}
+
+.footer-contact {
+    display: flex;
+    margin-top: 38px;
+    
+    
+}
+
+.privacy-container {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.privacy-flex {
+    display: flex;
+}
+
+.name-pad {
+    padding-top: 15px;
+}
+
+.privacy-move {
+    padding-left: 10px;
+}
