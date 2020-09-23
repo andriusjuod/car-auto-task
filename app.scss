@@ -260,6 +260,7 @@ hr {
     justify-content: space-around;
     border-bottom: solid white 2px;
     position: relative;
+    padding-bottom: 20px;
     nav {
         // padding-right: 400px;
         padding-top: 20px;
@@ -285,11 +286,14 @@ hr {
 }
 
 .privacy-container {
+    
+    font-size: 10px;
     color: gray;
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 20px;
 }
 
 .privacy-flex {

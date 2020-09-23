@@ -215,6 +215,7 @@ ul li {
   justify-content: space-around;
   border-bottom: solid white 2px;
   position: relative;
+  padding-bottom: 20px;
 }
 .top-container-footer nav {
   padding-top: 20px;
@@ -233,11 +234,13 @@ ul li {
 }
 
 .privacy-container {
+  font-size: 10px;
   color: gray;
   display: flex;
   justify-content: space-between;
   padding-left: 150px;
   padding-right: 150px;
+  padding-top: 20px;
 }
 
 .privacy-flex {
