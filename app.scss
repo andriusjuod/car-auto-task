@@ -266,6 +266,7 @@ hr {
 .footer {
     color:white !important;
     background-color: #011910;
+    
 }
 
 .logo-footer {
@@ -285,9 +286,8 @@ hr {
 .top-container-footer {
     display: flex;
     justify-content: space-around;
-    border-bottom: solid white 2px;
-    position: relative;
-    padding-bottom: 15px;
+    
+    padding-bottom: 20px;
     nav {
         // padding-right: 400px;
         padding-top: 20px;
@@ -329,10 +329,11 @@ hr {
     font-size: 10px;
     color: gray;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 20px;
+    padding-bottom: 20px;
     a {
         color: gray;
     }
@@ -343,10 +344,35 @@ hr {
 }
 
 .name-pad {
-    padding-top: 15px;
+   display: inline; 
+   padding-left: 300px;
     
 }
 
-.privacy-move {
-    padding-left: 10px;
+.car-pad {
+    display: inline;
+    margin: 0;
 }
+
+.privacy-move {
+    display: inline;
+    padding-left: 50px;
+}
+
+
+.border-test {
+    
+    position: relative;
+    // border-bottom: 2px solid #f51c40;
+    // background: #3beadc;
+  }
+
+ 
+ 
+  .border-test-2 { 
+  
+  border-top: 2px solid white;
+  position: absolute;
+  width: 700px;
+  left: 640px;
+  }

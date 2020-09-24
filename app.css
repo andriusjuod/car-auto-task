@@ -229,9 +229,7 @@ ul li {
 .top-container-footer {
   display: flex;
   justify-content: space-around;
-  border-bottom: solid white 2px;
-  position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .top-container-footer nav {
   padding-top: 20px;
@@ -264,10 +262,11 @@ ul li {
   font-size: 10px;
   color: gray;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .privacy-container a {
   color: gray;
@@ -278,11 +277,29 @@ ul li {
 }
 
 .name-pad {
-  padding-top: 15px;
+  display: inline;
+  padding-left: 300px;
+}
+
+.car-pad {
+  display: inline;
+  margin: 0;
 }
 
 .privacy-move {
-  padding-left: 10px;
+  display: inline;
+  padding-left: 50px;
+}
+
+.border-test {
+  position: relative;
+}
+
+.border-test-2 {
+  border-top: 2px solid white;
+  position: absolute;
+  width: 700px;
+  left: 640px;
 }
 
 /*# sourceMappingURL=app.css.map */
