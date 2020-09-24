@@ -24,15 +24,26 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #011910;
 }
 
 .top-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .top-container nav {
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.top-container button {
+  background: transparent;
+  border-radius: 24px;
+  width: 100px;
+  height: 35px;
+  border: solid 1px gray;
+  color: #011910;
+  font-family: "Epilogue";
+  font-size: 15px;
 }
 
 ul li {
@@ -175,7 +186,7 @@ ul li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 .contact-me-items h1 {
@@ -188,6 +199,11 @@ ul li {
 .flex-logo p {
   font-size: 20px;
   padding-left: 10px;
+}
+
+.padding-number {
+  padding-right: 120px;
+  display: flex;
 }
 
 .footer {
@@ -215,7 +231,7 @@ ul li {
   justify-content: space-around;
   border-bottom: solid white 2px;
   position: relative;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 .top-container-footer nav {
   padding-top: 20px;
@@ -226,11 +242,22 @@ ul li {
 }
 .top-container-footer ul li {
   cursor: pointer;
+  align-items: center;
 }
 
 .footer-contact {
   display: flex;
-  margin-top: 38px;
+  align-items: center;
+}
+.footer-contact button {
+  background: transparent;
+  border-radius: 24px;
+  width: 100px;
+  height: 35px;
+  border: solid 1px white;
+  color: white;
+  font-family: "Epilogue";
+  font-size: 15px;
 }
 
 .privacy-container {
@@ -241,6 +268,9 @@ ul li {
   padding-left: 150px;
   padding-right: 150px;
   padding-top: 20px;
+}
+.privacy-container a {
+  color: gray;
 }
 
 .privacy-flex {
